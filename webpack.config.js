@@ -12,9 +12,10 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
-    library: 'tcbAdapterWxMp',
+    library: 'tcbAdapterWxGame',
     libraryTarget: 'umd',
-    umdNamedDefine: true
+    umdNamedDefine: true,
+    globalObject: 'GameGlobal'
   },
   resolve: {
     extensions: ['.ts', '.js']

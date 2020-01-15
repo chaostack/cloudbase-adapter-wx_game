@@ -58,7 +58,10 @@ function genAdapter() {
     reqClass: WxRequest,
     wsClass: WxMpWebSocket as WebSocketContructor,
     localStorage: wxMpStorage,
-    primaryStorage: StorageType.local
+    primaryStorage: StorageType.local,
+    getAppSign(){
+      return  '';
+    }
   };
   return adapter;
 }
@@ -68,6 +71,12 @@ const adapter = {
   isMatch, 
   runtime:'wx_game' 
 };
+
+try{
+  window['adapter'] = adapter;
+  window['tcbAdapterWxGame'] = adapter;
+  GameGlobal.adapter = adapter;
+}catch(e){}
 
 export {adapter};
 export default adapter;
