@@ -74,7 +74,6 @@ const adapter = {
 
 try{
   window['adapter'] = adapter;
-  window['tcbAdapterWxGame'] = adapter;
   GameGlobal.adapter = adapter;
 }catch(e){}
 
