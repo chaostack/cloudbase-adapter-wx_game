@@ -1,14 +1,14 @@
-## @cloudbase/adapter-wx_game
+## cloudbase-adapter-wx_game
 
-[![NPM Version](https://img.shields.io/npm/v/@cloudbase/adapter-wx_game.svg?style=flat)](https://www.npmjs.com/package/@cloudbase/adapter-wx_game)
-[![](https://img.shields.io/npm/dt/@cloudbase/adapter-wx_game.svg)](https://www.npmjs.com/package/@cloudbase/adapter-wx_game)
+[![NPM Version](https://img.shields.io/npm/v/cloudbase-adapter-wx_game.svg?style=flat)](https://www.npmjs.com/package/cloudbase-adapter-wx_game)
+[![](https://img.shields.io/npm/dt/cloudbase-adapter-wx_game.svg)](https://www.npmjs.com/package/cloudbase-adapter-wx_game)
 
 tcb-js-sdk微信小游戏适配器
 
 ## 安装
 ### npm
 ```bash
-npm i @cloudbase/adapter-wx_game -S
+npm i cloudbase-adapter-wx_game -S
 ```
 
 ### Unpkg(推荐)
@@ -18,8 +18,8 @@ https://unpkg.com/cloudbase-adapter-wx_game/dist/index.js
 ## 使用
 ### ES Module
 ```javascript
-import tcb from 'tsb-js-sdk';
-import adapter from '@cloudbase/adapter-wx_game';
+import tcb from 'tcb-js-sdk';
+import adapter from 'cloudbase-adapter-wx_game';
 
 // 以下两种方式二选一
 // 1.单参数传入
@@ -32,8 +32,8 @@ tcb.init();
 
 ### CommonJS
 ```javascript
-const tcb = require('tsb-js-sdk');
-const {adapter} = require('@cloudbase/adapter-wx_game');
+const tcb = require('tcb-js-sdk');
+const {adapter} = require('cloudbase-adapter-wx_game');
 
 // 以下两种方式二选一
 // 1.单参数传入

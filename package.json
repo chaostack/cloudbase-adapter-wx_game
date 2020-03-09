@@ -1,6 +1,6 @@
 {
   "name": "cloudbase-adapter-wx_game",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "wechat game adapter of cloudbase javascript SDK",
   "main": "dist/index.js",
   "module": "dist/esm/index.js",
