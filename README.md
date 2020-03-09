@@ -6,9 +6,14 @@
 tcb-js-sdk微信小游戏适配器
 
 ## 安装
+### npm
 ```bash
 npm i @cloudbase/adapter-wx_game -S
 ```
+
+### Unpkg(推荐)
+可以使用unpkg托管的js文件，地址如下：
+https://unpkg.com/cloudbase-adapter-wx_game/dist/index.js
 
 ## 使用
 ### ES Module

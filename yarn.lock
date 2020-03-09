@@ -655,13 +655,6 @@
   resolved "https://registry.npmjs.org/@cloudbase/adapter-interface/-/adapter-interface-0.4.0.tgz#c57935b503e7bface4b151df63a87dc564ae9907"
   integrity sha512-vbNQlr4NK5mdsMr3elk4/OdE/opLpZB+8JPTXAQM4/ldcTZtmb1Dnt3T2g9u5LSHDlRjdzyeM5ARvVqUq+2bmw==
 
-"@cloudbase/adapter-wx_mp@^0.4.1":
-  version "0.4.1"
-  resolved "https://registry.npmjs.org/@cloudbase/adapter-wx_mp/-/adapter-wx_mp-0.4.1.tgz#64b8a2dfb0376fae8cf3a4d114ec8ae4161abfbb"
-  integrity sha512-jMbkEMTnFVT+AfavUvAYyMP1eDQqedbekpgizDA7HG76SQXUysYOCpBngdtwO8ZXnzjGbXY8xxvYw6Bt0bjBpw==
-  dependencies:
-    "@cloudbase/adapter-interface" "^0.4.0"
-
 "@types/eslint-visitor-keys@^1.0.0":
   version "1.0.0"
   resolved "https://registry.npmjs.org/@types/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#1ee30d79544ca84d68d4b3cdb0af4f205663dd2d"
@@ -1336,6 +1329,13 @@ cliui@^5.0.0:
     string-width "^3.1.0"
     strip-ansi "^5.2.0"
     wrap-ansi "^5.1.0"
+
+cloudbase-adapter-wx_mp@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.npmjs.org/cloudbase-adapter-wx_mp/-/cloudbase-adapter-wx_mp-0.1.0.tgz#4f405c602403c9dd5e8f46df8c0a4f36aacfbced"
+  integrity sha512-TSgOuoadO9876rId6zvf9sLNJjmAoSbuNm7z3gXv7hF3vCRzYqcYxSExmQOXoLXkduztfMM3lu9ENhNqkAIUzg==
+  dependencies:
+    "@cloudbase/adapter-interface" "^0.4.0"
 
 collection-visit@^1.0.0:
   version "1.0.0"

@@ -1,4 +1,4 @@
-import { WxMpWebSocket, wxMpStorage, WxRequest } from '@cloudbase/adapter-wx_mp';
+import { WxMpWebSocket, wxMpStorage, WxRequest } from 'cloudbase-adapter-wx_mp';
 import { SDKAdapterInterface, WebSocketContructor, StorageType } from '@cloudbase/adapter-interface';
 
 // eslint-disable-next-line

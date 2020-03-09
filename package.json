@@ -1,13 +1,14 @@
 {
-  "name": "@cloudbase/adapter-wx_game",
-  "version": "0.2.0",
+  "name": "cloudbase-adapter-wx_game",
+  "version": "0.1.0",
   "description": "wechat game adapter of cloudbase javascript SDK",
   "main": "dist/index.js",
   "module": "dist/esm/index.js",
   "scripts": {
     "eslint": "eslint \"./src/*.ts\"",
     "build:esm": "tsc -p tsconfig.esm.json",
-    "build": "webpack && npm run build:esm"
+    "build": "webpack && npm run build:esm",
+    "prepublish": "npm run eslint&&npm run build"
   },
   "author": "",
   "license": "ISC",
@@ -26,6 +27,6 @@
   },
   "dependencies": {
     "@cloudbase/adapter-interface": "^0.4.0",
-    "@cloudbase/adapter-wx_mp": "^0.4.1"
+    "cloudbase-adapter-wx_mp": "^0.1.0"
   }
 }
